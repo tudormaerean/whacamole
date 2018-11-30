@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="170px" height="170px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 170 170"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#633304;stroke-width:1.99984}
+    .fil4 {fill:url(#id0)}
+    .fil2 {fill:url(#id1)}
+    .fil3 {fill:url(#id2)}
+    .fil1 {fill:url(#id3)}
+    .fil0 {fill:url(#id4)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="41.5721" y1="23.6316" x2="25.3086" y2="7.3681">
+   <stop offset="0" style="stop-opacity:1; stop-color:#422100"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#F29647"/>
+  </linearGradient>
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="24.3456" y1="32.5287" x2="13.2072" y2="21.3902">
+  </linearGradient>
+  <linearGradient id="id2" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="154.104" y1="157.926" x2="142.966" y2="146.787">
+  </linearGradient>
+  <linearGradient id="id3" gradientUnits="userSpaceOnUse" x1="35.5028" y1="35.5025" x2="134.497" y2="134.497">
+   <stop offset="0" style="stop-opacity:1; stop-color:#211101"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#C27938"/>
+  </linearGradient>
+  <linearGradient id="id4" gradientUnits="userSpaceOnUse" x1="143.69" y1="143.69" x2="26.3101" y2="26.3103">
+   <stop offset="0" style="stop-opacity:1; stop-color:#633200"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#FA9C4B"/>
+  </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect class="fil0 str0" x="2" y="2" width="166" height="166" rx="66" ry="66"/>
+  <rect class="fil1 str0" x="15" y="15" width="140" height="140" rx="75" ry="75"/>
+  <circle class="fil2 str0" cx="19" cy="27" r="8"/>
+  <circle class="fil3 str0" cx="149" cy="152" r="8"/>
+  <circle class="fil4 str0" cx="33" cy="15" r="12"/>
+ </g>
+</svg>

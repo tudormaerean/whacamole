@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+  <title>Eliza's Whackamole</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <link rel="stylesheet" href="/style/bootstrap.min.css"/>
+  <link rel="stylesheet" href="/style/style.css"/>
+  <link rel='shortcut icon' type='image/x-icon' href='/images/favicon.ico'/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+</head>
+<body ng-app="app" ng-controller="GameController">
+  <header></header>
+  <!-- <header-svg></header-svg> -->
+  <div class="col-sm-offset-1 col-md-offset-3 col-xs-12 col-sm-10 col-md-6 play-area no-padding">
+    <div class="col-xs-12 col-sm-12 col-md-12 playing-field">
+      <mole id="mole{{$index}}" class="col-xs-4 col-sm-4 col-md-4" ng-repeat="mole in moles track by $index"></mole>
+    </div>
+  </div>
+  <modal></modal>
+</body>
+<script src="/scripts/jquery-1.12.1.min.js"></script>
+<script src="/scripts/bootstrap.min.js"></script>
+<script src="/scripts/angular.js"></script>
+<script src="/scripts/angular-sanitize.js"></script>
+<script src="/app/app.js"></script>
+<script src="/app/controllers/app.controller.js"></script>
+<script src="/app/directives/app.directive.header.js"></script>
+<script src="/app/directives/app.directive.header-svg.js"></script>
+<script src="/app/directives/app.directive.mole.js"></script>
+<script src="/app/directives/app.directive.modal.js"></script>
+<script src="/app/services/app.service.game-finish.js"></script>
+<script src="/app/services/app.service.game-initializer.js"></script>
+<script src="/app/services/app.service.game-starter.js"></script>
+<script src="/app/services/app.service.game-socket.js"></script>
+</html>
+

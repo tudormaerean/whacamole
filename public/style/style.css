@@ -1,0 +1,143 @@
+body {
+    /* background-color: #733D08; */
+    background-image: url('../assets/img/h1.jpg');
+}
+
+.header-svg {
+    width: 100%;
+    background-image: url('../assets/img/header.svg');
+}
+
+.header-bar {
+    /* height: 100px; */
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.header-title {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bolder;
+    color: purple;
+    background-color: pink;
+}
+
+.play-area {
+    padding: 5px;
+}
+
+.playing-field {
+    /* background-color: #733D08; */
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.play-info {
+    background-color: rgb(64, 64, 64);
+    color: ivory;
+    text-align: center;
+}
+
+.margin-right {
+    margin-right: 2em;
+}
+
+.mole-mound {
+    padding: 0;
+}
+
+.mole-mound-svg {
+    width: 100%;
+}
+
+.mole-hole {
+    width: 100%;
+}
+
+.mole-mound-svg-square {
+    fill: url(#id4);
+    stroke: #633304;
+    stroke-width: 2;
+}
+
+.mole-mound-svg-hole {
+    fill: url(#id5);
+    stroke: #633304;
+    stroke-width: 2;
+}
+
+.mole-mound-svg-circle-1, .mole-mound-svg-circle-3 {
+    fill: url(#id0);
+    stroke: #525150;
+    stroke-width: 2;
+}
+
+.mole-mound-svg-circle-2 {
+    fill: url(#id1);
+    stroke: #525150;
+    stroke-width: 2;
+}
+
+.mole-unit {
+    width: 100%;
+    height: 100%;
+}
+
+.mole-zap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* transform: translate(0,40%); */
+    animation: flash 0.75s linear 1 normal forwards;
+}
+
+@keyframes flash {
+    0%, 100% {
+        width: 0%;
+    }
+    40%, 60% {
+        width: 100%;
+    }
+    50% {
+        width: 90%;  
+    }
+}
+
+#automatic-modal {
+    display: inherit;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-dialog {
+    top: calc(50% - 220px);
+}
+
+.score-text {
+    display: inline-block;
+    font-size: 2em;
+    text-align: center;
+}
+
+.code-selection {
+    float: right;
+    /* padding-top: 3px;
+    padding-bottom: 3px; */
+    margin-top: 0.15em;
+}
+
+.code-buttons {
+    border-radius: 50%;
+    font-size: 1em;
+    font-weight: 900;
+}
+
+.nav>li>a {
+    padding: 0.25em 0.5em;
+}
+
+@media screen and (max-width: 767px) {
+    .header-title {
+        font-size: 2em;
+    }
+}
